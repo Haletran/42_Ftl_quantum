@@ -17,6 +17,7 @@ pkgs.mkShell {
       echo "Creating virtual environment..."
       python -m venv venv
       source venv/bin/activate
+      pip install -r requirements.txt
     else
       echo "Venv already exists, activating..."
       source venv/bin/activate
