@@ -33,3 +33,11 @@ The program must display the circuit, then run it on a quantum simulator with 50
 ![Circuit Image](https://user-images.githubusercontent.com/77266161/107123986-d584de00-68c6-11eb-8e68-ef4ff2e07705.jpg)
 
 Obtain this state: $$\frac{1}{\sqrt{2}} (|00⟩ + |11⟩)$$
+
+## EX03 - On real quantum computer
+
+Same as EX02 but run the program on a real quantum computer.
+
+-> Here are some links that might help you:
+- [jobs qiskit](https://qiskit.qotlabs.org/guides/estimate-job-run-time)
+- [jobs batch](https://qiskit.qotlabs.org/guides/run-jobs-batch)
