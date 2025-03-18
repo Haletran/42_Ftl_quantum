@@ -1,7 +1,21 @@
-import os
-from dotenv import load_dotenv, dotenv_values 
-from qiskit_ibm_catalog import QiskitFunctionsCatalog
-load_dotenv() 
+from qiskit_ibm_runtime import QiskitRuntimeService
+ 
+service = QiskitRuntimeService() 
+rComp = service.backends(simulator=False, operational=True)
+sComp = service.backends(simulator=True)
 
-TOKEN = os.getenv('IBMQ_TOKEN')
-QiskitFunctionsCatalog.save_account(token=os.getenv(TOKEN))
+
+def printComputers(comp, name):
+    print("-> " + name + " quantum computers: ")
+    if len(comp) == 0:
+        print("No " + name + " computers found...")
+        return
+    for backend in comp:
+        status = backend.status()
+        if name == "Real":
+            print (backend.name, "has", status.pending_jobs, "queues with ",backend.num_qubits, "qbits")
+        else:
+            print(backend.name, "has", status.pending_jobs, "queues")
+        
+printComputers(sComp, "Simulated")
+printComputers(rComp, "Real")
