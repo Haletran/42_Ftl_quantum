@@ -41,3 +41,12 @@ Same as EX02 but run the program on a real quantum computer.
 -> Here are some links that might help you:
 - [jobs qiskit](https://qiskit.qotlabs.org/guides/estimate-job-run-time)
 - [jobs batch](https://qiskit.qotlabs.org/guides/run-jobs-batch)
+
+## EX04 - Deutsch-Josza Algorithm
+
+Recreate the Deutsch-Jozsa algorithm, it should work with a total number
+of 4 qubits.
+
+- [Medium deutsh Josza explanation and implementation](https://medium.com/quantum-untangled/the-deutsch-jozsa-algorithm-math-circuits-and-code-quantum-algorithms-untangled-f3b28be4cfd3)
+- [Another medium](https://hoaio.medium.com/implement-the-deutsch-jozsa-algorithm-in-qiskit-and-ibm-quantum-98d7c12e87f6)
+- [Qiskit Deutsch-Josza](https://qiskit.org/textbook/ch-algorithms/deutsch-jozsa.html)
