@@ -50,3 +50,4 @@ of 4 qubits.
 - [Medium deutsh Josza explanation and implementation](https://medium.com/quantum-untangled/the-deutsch-jozsa-algorithm-math-circuits-and-code-quantum-algorithms-untangled-f3b28be4cfd3)
 - [Another medium](https://hoaio.medium.com/implement-the-deutsch-jozsa-algorithm-in-qiskit-and-ibm-quantum-98d7c12e87f6)
 - [Qiskit Deutsch-Josza](https://qiskit.org/textbook/ch-algorithms/deutsch-jozsa.html)
+- [Jupyter notebook explaining it](https://github.com/Qiskit/textbook/blob/main/notebooks/ch-algorithms/deutsch-jozsa.ipynb)
