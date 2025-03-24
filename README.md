@@ -47,7 +47,30 @@ Same as EX02 but run the program on a real quantum computer.
 Recreate the Deutsch-Jozsa algorithm, it should work with a total number
 of 4 qubits.
 
+-> Here are some links that might help you:
 - [Medium deutsh Josza explanation and implementation](https://medium.com/quantum-untangled/the-deutsch-jozsa-algorithm-math-circuits-and-code-quantum-algorithms-untangled-f3b28be4cfd3)
 - [Another medium](https://hoaio.medium.com/implement-the-deutsch-jozsa-algorithm-in-qiskit-and-ibm-quantum-98d7c12e87f6)
 - [Qiskit Deutsch-Josza](https://qiskit.org/textbook/ch-algorithms/deutsch-jozsa.html)
 - [Jupyter notebook explaining it](https://github.com/Qiskit/textbook/blob/main/notebooks/ch-algorithms/deutsch-jozsa.ipynb)
+
+
+## EX05 - Search algorithm
+
+The search algorithm, the ultimate goal of this project.
+Your algorithm should search for one or more items that meet a given requirement among
+N unclassified items.
+ 
+- On a traditional computer, the complexity of the problem is O(N).
+- On a quantum computer, the complexity is reduced to O(√ (N )).
+
+You will need to have 3 distinct parts:
+-  The initialization of states.
+-  The Oracle.
+-  Diffuser.
+
+Your algorithm will take a Y number of qubits (minimum 2) and must not require
+any modification to work.
+
+-> Here are some links that might help you:
+- [Grover's Algorithm](https://github.com/Qiskit/textbook/blob/main/notebooks/ch-algorithms/grover.ipynb)
+- [Geeek for geeks](https://www.geeksforgeeks.org/introduction-to-grovers-algorithm/)
